@@ -11,3 +11,4 @@ RUN apk add --no-cache \
     libstdc++ \
     binutils && \
     strip /usr/bin/node
+RUN yarn global add npm
